@@ -1,12 +1,64 @@
-# React + Vite
+# 🔐 Firebase Authentication using React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Firebase Auth App! This project allows users to **sign up**, **log in**, and **log out** using Firebase Authentication, built with **React**, **Vite**, and styled using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ User Signup
+- ✅ User Login
+- ✅ Logout functionality
+- ✅ Protected Routes (Coming Soon)
+- ✅ Tailwind CSS for styling
+- ✅ Alert on success and error
+- ✅ Smooth navigation with React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+### 🔵 Signup Page
+
+![Signup Page](../images.Signup.png)
+
+### 🟣 Login Page
+
+![Login Page](../images/Login.png)
+
+### 🟢 Home/Dashboard Page
+
+![Dashboard](../images/Logout.png)
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech       | Description                       |
+|------------|-----------------------------------|
+| React      | Frontend JavaScript Library       |
+| Firebase   | Backend Authentication            |
+| Vite       | Fast Frontend Build Tool          |
+| TailwindCSS| Utility-first CSS framework       |
+| React Router | For navigation between pages    |
+
+---
+
+## 📁 Folder Structure
+
+src/
+├── firebase/
+│ └── config.js
+├── pages/
+│ ├── Login.jsx
+│ └── Signup.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+## 🧩 Firebase Setup Instructions
+
+1. Go to [Firebase Console](https://console.firebase.google.com)
+2. Create a new project
+3. Go to **Authentication > Sign-in method** and enable **Email/Password**
+4. Create a web app and get the config keys
+5. Paste config in `firebase/config.js`
