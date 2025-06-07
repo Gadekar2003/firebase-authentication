@@ -20,7 +20,7 @@ Welcome to the Firebase Auth App! This project allows users to **sign up**, **lo
 
 ### 🔵 Signup Page
 
-![Signup Page](public/images.Signup.png)
+![Signup Page](public/images/Signup.png)
 
 ### 🟣 Login Page
 
